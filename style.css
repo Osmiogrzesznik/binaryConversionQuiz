@@ -1,0 +1,69 @@
+
+
+@font-face {
+font-family: "PressStart2P";
+src: url("PressStart2P.ttf");
+}
+
+#test {
+  color: gray;
+border:1px solid red;
+}
+
+#log, body, html, input{
+  background-color:black;
+  color:white;
+font-size:10px;
+font-family:Monospace;
+line-height:140%;
+}
+
+.cell{
+  margin:0px;
+border:1px solid gray;
+background-color:lightgray;
+display:inline-block;
+height:20px;
+width:20px;
+text-align:center;
+
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+select: none;
+}
+
+.header{
+background-color:pink;
+}
+
+#grid{
+  margin:10px;
+  display:block;
+ width:200px;
+ height:200px;
+}
+
+input{
+background-color:black;
+color:white;
+border:none;
+width:100%;
+}
+
+input:focus { 
+    outline: none !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white !important;
+}
